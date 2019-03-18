@@ -496,7 +496,7 @@ const reject = Object.freeze({});
 // stateful, so they are created in here. I am freezing the constructor because
 // I enjoy freezing things.
 
-export default Object.freeze(function jsc_constructor() {
+module.exports = Object.freeze(function jsc_constructor() {
     let all_claims = [];
 
     function check(configuration) {
