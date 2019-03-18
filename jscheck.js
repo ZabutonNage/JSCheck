@@ -18,7 +18,12 @@
     string, stringify, summary, time_limit, total, type, verdict, wun_of
 */
 
-import fulfill from "./fulfill.js";
+const templateTagRegex = /{\w+}/g;
+
+function fulfill(template, obj) {
+    return template.replace(templateTagRegex, m => obj[m.slice(1, -1)]);
+}
+
 
 function resolve(value, ...rest) {
 
