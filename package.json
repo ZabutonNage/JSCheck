@@ -1,0 +1,12 @@
+{
+  "name": "jscheck",
+  "version": "0.0.0",
+  "description": "jscheck.js Douglas Crockford 2012-04-24",
+  "main": "jscheck.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZabutonNage/JSCheck.git"
+  }
+}
